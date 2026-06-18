@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Pair",
+            "request": "launch",
+            "mainClass": "Pair",
+            "projectName": "DSA_fc28f4c1"
+        },
+        {
+            "type": "java",
             "name": "Reverse",
             "request": "launch",
             "mainClass": "Reverse",
