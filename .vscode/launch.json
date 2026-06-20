@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "maximaxSubarray",
+            "request": "launch",
+            "mainClass": "maximaxSubarray",
+            "projectName": "DSA_fc28f4c1"
+        },
+        {
+            "type": "java",
+            "name": "pairArray",
+            "request": "launch",
+            "mainClass": "pairArray",
+            "projectName": "DSA_fc28f4c1"
+        },
+        {
+            "type": "java",
             "name": "Pair",
             "request": "launch",
             "mainClass": "Pair",
