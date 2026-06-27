@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "insertionSort",
+            "request": "launch",
+            "mainClass": "insertionSort",
+            "projectName": "DSA_fc28f4c1"
+        },
+        {
+            "type": "java",
             "name": "selectionSort",
             "request": "launch",
             "mainClass": "selectionSort",
