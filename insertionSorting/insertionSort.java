@@ -2,7 +2,13 @@ public class insertionSort{
 
     public static void insertion(int arr[]){
         
+        
         int n = arr.length;
+
+        if(arr == null || n <= 1){
+            return;
+        }
+        
         for(int i=1; i<n; i++){
             // find the curr 
             int curr = arr[i];
