@@ -3,10 +3,13 @@ public class plindromeUsingTP {
     // solve this question using two pointer approach
 
     public static boolean isPalindrome(String str){
+
+        // check the nill condition 
         if(str == null || str.length() <=1){
             return true;
         }
 
+        
         int left = 0;
         int right = str.length()-1;
 

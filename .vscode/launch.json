@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "moveZeroBatter",
+            "request": "launch",
+            "mainClass": "moveZeroBatter",
+            "projectName": "DSA_fc28f4c1"
+        },
+        {
+            "type": "java",
+            "name": "practice",
+            "request": "launch",
+            "mainClass": "practice",
+            "projectName": "DSA_fc28f4c1"
+        },
+        {
+            "type": "java",
             "name": "plindromeUsingTP",
             "request": "launch",
             "mainClass": "plindromeUsingTP",
