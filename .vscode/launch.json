@@ -6,6 +6,83 @@
     "configurations": [
         {
             "type": "java",
+            "name": "moveZeroBatter",
+            "request": "launch",
+            "mainClass": "moveZeroBatter",
+            "projectName": "DSA_fc28f4c1"
+        },
+        {
+            "type": "java",
+            "name": "practice",
+            "request": "launch",
+            "mainClass": "practice",
+            "projectName": "DSA_fc28f4c1"
+        },
+        {
+            "type": "java",
+            "name": "plindromeUsingTP",
+            "request": "launch",
+            "mainClass": "plindromeUsingTP",
+            "projectName": "DSA_fc28f4c1"
+        },
+        {
+            "type": "java",
+            "name": "palindrome",
+            "request": "launch",
+            "mainClass": "palindrome",
+            "projectName": "DSA_fc28f4c1"
+        },
+        {
+            "type": "java",
+            "name": "countingSort",
+            "request": "launch",
+            "mainClass": "countingSort",
+            "projectName": "DSA_fc28f4c1"
+        },
+        {
+            "type": "java",
+            "name": "insertionSort",
+            "request": "launch",
+            "mainClass": "insertionSort",
+            "projectName": "DSA_fc28f4c1"
+        },
+        {
+            "type": "java",
+            "name": "selectionSort",
+            "request": "launch",
+            "mainClass": "selectionSort",
+            "projectName": "DSA_fc28f4c1"
+        },
+        {
+            "type": "java",
+            "name": "bubbleSortOptimised",
+            "request": "launch",
+            "mainClass": "bubbleSortOptimised",
+            "projectName": "DSA_fc28f4c1"
+        },
+        {
+            "type": "java",
+            "name": "bubbleSort",
+            "request": "launch",
+            "mainClass": "bubbleSort",
+            "projectName": "DSA_fc28f4c1"
+        },
+        {
+            "type": "java",
+            "name": "stock",
+            "request": "launch",
+            "mainClass": "stock",
+            "projectName": "DSA_fc28f4c1"
+        },
+        {
+            "type": "java",
+            "name": "trappingWater",
+            "request": "launch",
+            "mainClass": "trappingWater",
+            "projectName": "DSA_fc28f4c1"
+        },
+        {
+            "type": "java",
             "name": "trappingRainwater",
             "request": "launch",
             "mainClass": "trappingRainwater",
