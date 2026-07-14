@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "isPalindrome",
+            "request": "launch",
+            "mainClass": "isPalindrome",
+            "projectName": "DSA_fc28f4c1"
+        },
+        {
+            "type": "java",
+            "name": "isPalindrome_brote",
+            "request": "launch",
+            "mainClass": "isPalindrome.isPalindrome_brote",
+            "projectName": "DSA_fc28f4c1"
+        },
+        {
+            "type": "java",
             "name": "modificationSumofVariable",
             "request": "launch",
             "mainClass": "modificationSumofVariable",
