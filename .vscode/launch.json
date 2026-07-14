@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "optimizedisPalindrome",
+            "request": "launch",
+            "mainClass": "optimizedisPalindrome",
+            "projectName": "DSA_fc28f4c1"
+        },
+        {
+            "type": "java",
             "name": "isPalindrome",
             "request": "launch",
             "mainClass": "isPalindrome",
