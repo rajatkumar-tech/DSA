@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "modificationSumofVariable",
+            "request": "launch",
+            "mainClass": "modificationSumofVariable",
+            "projectName": "DSA_fc28f4c1"
+        },
+        {
+            "type": "java",
             "name": "moveZeroBatter",
             "request": "launch",
             "mainClass": "moveZeroBatter",
