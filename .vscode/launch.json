@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "trappingWater",
+            "request": "launch",
+            "mainClass": "trappingWater",
+            "projectName": "DSA_ba827d63"
+        },
+        {
+            "type": "java",
+            "name": "optimizedisPalindrome",
+            "request": "launch",
+            "mainClass": "optimizedisPalindrome",
+            "projectName": "DSA_fc28f4c1"
+        },
+        {
+            "type": "java",
+            "name": "isPalindrome",
+            "request": "launch",
+            "mainClass": "isPalindrome",
+            "projectName": "DSA_fc28f4c1"
+        },
+        {
+            "type": "java",
+            "name": "isPalindrome_brote",
+            "request": "launch",
+            "mainClass": "isPalindrome.isPalindrome_brote",
+            "projectName": "DSA_fc28f4c1"
+        },
+        {
+            "type": "java",
+            "name": "modificationSumofVariable",
+            "request": "launch",
+            "mainClass": "modificationSumofVariable",
+            "projectName": "DSA_fc28f4c1"
+        },
+        {
+            "type": "java",
             "name": "moveZeroBatter",
             "request": "launch",
             "mainClass": "moveZeroBatter",

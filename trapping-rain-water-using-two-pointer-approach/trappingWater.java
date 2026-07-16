@@ -2,12 +2,6 @@ import java.util.*;
 
 public record trappingWater() {
 
-<<<<<<< HEAD
-    
-    
-    public static void main(String args[]){
-       int height[] = {4, 2, 0, 6, 3, 2, 5};
-=======
     public static int trappedWater(int height[]) {
         int n = height.length;
         int left = 0, right = n - 1;
@@ -41,7 +35,7 @@ public record trappingWater() {
 
     public static void main(String args[]) {
         int height[] = { 4, 2, 0, 6, 3, 2, 5 };
+
         System.out.println(trappedWater(height));
->>>>>>> 22ec309b72d3b836c9e1e81a011e81c402b64b9c
     }
 }
