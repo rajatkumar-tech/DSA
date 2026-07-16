@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "shortestPath",
+            "request": "launch",
+            "mainClass": "shortestPath",
+            "projectName": "DSA_ba827d63"
+        },
+        {
+            "type": "java",
             "name": "trappingWater",
             "request": "launch",
             "mainClass": "trappingWater",
