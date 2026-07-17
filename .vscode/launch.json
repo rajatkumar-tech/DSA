@@ -9,6 +9,13 @@
             "name": "shortestPath",
             "request": "launch",
             "mainClass": "shortestPath",
+            "projectName": "DSA_fc28f4c1"
+        },
+        {
+            "type": "java",
+            "name": "shortestPath",
+            "request": "launch",
+            "mainClass": "shortestPath",
             "projectName": "DSA_ba827d63"
         },
         {
