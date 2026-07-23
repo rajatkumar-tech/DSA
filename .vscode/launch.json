@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "practice",
+            "request": "launch",
+            "mainClass": "practice",
+            "projectName": "DSA_ba827d63"
+        },
+        {
+            "type": "java",
             "name": "largestEasy",
             "request": "launch",
             "mainClass": "largestEasy",
