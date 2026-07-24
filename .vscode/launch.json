@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "optimizedCompress",
+            "request": "launch",
+            "mainClass": "optimizedCompress",
+            "projectName": "DSA_ba827d63"
+        },
+        {
+            "type": "java",
             "name": "compress",
             "request": "launch",
             "mainClass": "compress",
