@@ -6,10 +6,17 @@
     "configurations": [
         {
             "type": "java",
+<<<<<<< HEAD
             "name": "upperCase",
             "request": "launch",
             "mainClass": "upperCase",
             "projectName": "DSA_fc28f4c1"
+=======
+            "name": "practice",
+            "request": "launch",
+            "mainClass": "practice",
+            "projectName": "DSA_ba827d63"
+>>>>>>> 74bcd1f7d1acfac5f003e7b4e48660440f679131
         },
         {
             "type": "java",
