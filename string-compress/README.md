@@ -1,26 +1,5 @@
-<<<<<<< HEAD
-// package string-compress;
-public class compress {
+// this question solutation time complexity is O(n^2) and space complexity O(n) 
 
-    public static String compressString(String str) {
-        StringBuilder sb = new StringBuilder();
-        
-        for (int i = 0; i < str.length(); i++) {
-            Integer count = 1;
-            while (i < str.length() - 1 && str.charAt(i) == str.charAt(i + 1)) {
-                count++;
-                i++;
-            }
-            sb.append(str.charAt(i));
-            if (count > 1) {
-                sb.append(count);
-            }
-        }
-        return sb.toString();
-    }
-
-    public static void main(String args[]) {
-=======
 
 public class compress{
 
@@ -49,13 +28,48 @@ public class compress{
     }
 
     public static void main(String args[]){
->>>>>>> c391c0c35d42e0208cb837c24e13eb206e11f900
         String str = "aaabbcc";
 
         System.out.println(compressString(str));
     }
-<<<<<<< HEAD
 }
-=======
+
+
+
+
+
+
+
+
+
+//  this question time complexity is O(n) and space complexity is o(n) so there optimized to the previous code 
+
+public class optimizedCompress {
+
+    public static String compressOptimized(String str){
+        // use the already empty stringBuilder method
+        StringBuilder sb = new StringBuilder();
+
+        for(int i =0; i<str.length(); i++){
+            int count =1;
+
+            while(i < str.length()-1 && str.charAt(i) == str.charAt(i+1)){
+                count++;
+                i++;
+            }
+            // fill the empty string
+            sb.append(str.charAt(i));
+            if(count >1){
+                sb.append(count);
+            }
+        }
+        return sb.toString();
+    }
+
+    public static void main(String args[]){
+        String str = "aaabbcc";
+
+        System.out.println(compressOptimized(str));
+    }
+    
 }
->>>>>>> c391c0c35d42e0208cb837c24e13eb206e11f900
