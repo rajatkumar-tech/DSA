@@ -13,8 +13,11 @@ public class findOddEven{
     }
 
     public static void main(String args[]){
-        int n = 6;
+        Scanner sc = new Scanner(System.in);
 
-        find(n);
+        System.out.println("Enter the value ");
+        int user = sc.nextInt();
+
+        find( user);
     }
 }
