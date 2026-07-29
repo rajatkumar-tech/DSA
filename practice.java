@@ -1,22 +1,32 @@
+import java.util.Scanner;
 
 public class practice {
-    public static int loweCase(String str){
-        int count =0;
 
-        for(int i =0; i<str.length(); i++){
-            char ch = Character.toLowerCase(str.charAt(i));
-            
-            if(ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u'){
-                
-                count++;
-            }
+    
+    public static int getIthBit(int n , int i ){
+        int value = n <<i;
+        if((n & value) == 0){
+            return 0;
+        }else{
+            return 1;
         }
-        return count;
     }
 
+    public static int setIthBit(int n, int i ){
+        int value = 1 << i;
+        return n | value;
+    }
 
     public static void main(String args[]){
-        String str = "ABCOUM";
-        System.out.println(loweCase(str));
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("print the first Value");
+        int n = sc.nextInt();
+
+        System.out.println("Enter the Second value");
+        int i = sc.nextInt();
+
+        System.out.println("output = "+ getIthBit(n, i));
+        System.out.println(setIthBit(n, i));
     }
 }
