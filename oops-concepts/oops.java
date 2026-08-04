@@ -1,4 +1,4 @@
-public class oops{
+/* public class oops{
 
     public static void main(String args[]){
         Pen p1 = new Pen();
@@ -31,3 +31,39 @@ class Pen {
             tip = newTip;
         }
     }
+
+
+    */
+
+// import oops.oops.Student;
+
+public class oops{
+        
+        public static void main(String args[]){
+            Student s1 = new Student("RAJAT");
+            System.out.println(s1.name);
+
+            Student s2 = new Student(3);
+            System.out.println(s2.rollNum);
+        }
+        
+    }
+
+    class Student{
+            String name;
+            int rollNum ;
+
+
+            //this is the constructor
+            Student(int roll){
+                this.rollNum = roll;
+            }
+
+            // this is the constructor
+            Student(String name){
+                this.name = name;
+            }
+        }
+
+
+   
