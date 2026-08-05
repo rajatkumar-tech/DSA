@@ -110,3 +110,49 @@ class Student {
 
 
  */
+
+
+
+public class oops{
+    public static void main(String args[]){
+        Student s1 = new Student();
+        s1.name = "Mohan";
+        s1.rollNo = 4;
+        s1.fatherName = "Chatur";
+        s1.marks[0] = 87;
+        s1.marks[1] = 66;
+        s1.marks[2] = 99;
+
+
+        Student s2 = new Student(s1);
+        s1.marks[2] = 45; // change the value using copy constructor
+
+        for(int i =0; i<3; i++){
+            System.out.println( s2.marks[i]);
+        }
+    }
+}
+
+
+class Student {
+    String name;
+    String fatherName;
+    int rollNo;
+    int marks[];
+
+    Student(){
+        marks = new int[3];
+        System.out.println("blank");
+    }
+
+    // shallow copy constructor 
+    Student(Student s1){
+        marks = new int[3];
+        this.name = s1.name;
+        this.rollNo = s1.rollNo;
+        this.fatherName = s1.fatherName;
+        this.marks = s1.marks;
+    }
+    
+
+}
