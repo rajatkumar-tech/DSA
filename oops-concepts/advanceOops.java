@@ -3,6 +3,14 @@ public class advanceOops {
     // how to working inheritance 
 
     public static void main(String args[]){
+        Dog dobby = new Dog();
+        dobby.eat();  // 
+
+
+        Mammel mm = new Mammel();
+
+        mm.legs = 4;
+        System.out.println(mm.legs);
         
     }
     
