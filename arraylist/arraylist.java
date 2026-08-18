@@ -41,7 +41,6 @@ public class arraylist{
 
          */
 
-
         /* 
         // how can find the size in arraylist 
         ArrayList<Integer> list = new ArrayList<>();
@@ -58,6 +57,10 @@ public class arraylist{
         }
 
         */
+
+
+
+         
         
     }
 }
