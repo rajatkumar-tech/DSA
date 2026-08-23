@@ -1,32 +1,28 @@
 import java.util.ArrayList;
 import java.util.ArrayList;
 
+public class practice{
 
+    public static void swap(ArrayList<Integer> list, int idx1, int idx2){
 
-public class practice {
-
-    public static int findMax(ArrayList<Integer> list){
-        
-        int max = Integer.MIN_VALUE;
-        for(int i =0; i<list.size(); i++){
-            if(max < list.get(i)){
-                max = list.get(i);
-            }
-        }
-        return max;
+        int temp = list.get(idx1);
+        list.set(idx1, list.get(idx2));
+        list.set(idx2, temp);
     }
+
 
 
      public static void main(String args[]) {
       ArrayList<Integer> list = new ArrayList<>();
 
       list.add(1);
-      list.add(19);
-      list.add(111);
-      list.add(90);
-      list.add(11);
+      list.add(2);
+      list.add(3);
+      list.add(4);
+      list.add(5);
 
-      System.out.println(findMax(list));
+     swap(list, 2, 3);
+     System.out.println(list);
         
     }
 }
@@ -59,5 +55,24 @@ public class practice {
 
     }
         */
+
+
+
+    /*
+    
+    public class practice {
+
+    public static int findMax(ArrayList<Integer> list){
+        
+        int max = Integer.MIN_VALUE;
+        for(int i =0; i<list.size(); i++){
+            if(max < list.get(i)){
+                max = list.get(i);
+            }
+        }
+        return max;
+    }
+    
+    */
 
    
