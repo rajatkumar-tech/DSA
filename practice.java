@@ -1,41 +1,32 @@
-import java.util.Arrays;
+import java.util.ArrayList;
+import java.util.ArrayList;
 
 
 
 public class practice {
 
-
-    public static int[] intersection(int num1[], int num2[]){
-        Arrays.sort(num1);
-        Arrays.sort(num2);
-
-        int i =0, j =0, k =0;
-
-        int temp[] =new int[Math.min(num1.length, num2.length)];
-
-        while ( i < num1.length && j < num2.length) {
-            if(num1[i] < num2[j]){
-                i++;
-            }else if(num2[j] < num1[i]){
-                j++;
-            }else if(num1[i]  == num2[j]){
-                
-                    temp[k] = num1[i];
-                    k++;
-                
-                i++;
-                j++;
+    public static int findMax(ArrayList<Integer> list){
+        
+        int max = Integer.MIN_VALUE;
+        for(int i =0; i<list.size(); i++){
+            if(max < list.get(i)){
+                max = list.get(i);
             }
         }
-
-        return Arrays.copyOf(temp, k);
+        return max;
     }
 
-     public static void main(String args[]) {
-        int arr1[] = { 2, 4, 2, 9 };
-        int arr2[] = { 2, 9, 5, 2 };
 
-        System.out.println(Arrays.toString(intersection(arr1, arr2)));
+     public static void main(String args[]) {
+      ArrayList<Integer> list = new ArrayList<>();
+
+      list.add(1);
+      list.add(19);
+      list.add(111);
+      list.add(90);
+      list.add(11);
+
+      System.out.println(findMax(list));
         
     }
 }
