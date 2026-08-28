@@ -20,8 +20,7 @@ public class multiDimensional {
         list1.add(10);
         mainlist.add(list1);
 
-        System.out.println(list);
-        System.out.println(list1);
+
         System.out.println(mainlist);
     }
     
