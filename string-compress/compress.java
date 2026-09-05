@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 // package string-compress;
 public class compress {
 
@@ -20,8 +20,8 @@ public class compress {
     }
 
     public static void main(String args[]) {
-=======
 
+/*
 public class compress{
 
     public static String compressString(String str){
@@ -49,13 +49,13 @@ public class compress{
     }
 
     public static void main(String args[]){
->>>>>>> c391c0c35d42e0208cb837c24e13eb206e11f900
+
         String str = "aaabbcc";
 
         System.out.println(compressString(str));
     }
-<<<<<<< HEAD
+
+} */
+    }
 }
-=======
-}
->>>>>>> c391c0c35d42e0208cb837c24e13eb206e11f900
+
