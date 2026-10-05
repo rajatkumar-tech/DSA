@@ -8,7 +8,7 @@ public class Water {
     public static int holdWater(ArrayList<Integer> height) {
         // this variable define to store the maximum water
         int maxWater = 0;
-        int left = 0;
+        int left = 0; 
         int right = height.size() - 1;
         while (left < right) {
 
